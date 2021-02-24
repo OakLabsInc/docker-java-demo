@@ -21,3 +21,9 @@ docker-compose up
 ``` bash
 docker-compose down
 ```
+
+## Test build
+
+If all went well, you should be able to view the data results at this url:
+
+**http://localhost:8081/springbootapp/employees**

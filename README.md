@@ -10,8 +10,9 @@ Instructions how to install **Docker** on [Ubuntu](https://docs.docker.com/insta
 
 **Docker Compose** is already included in installation packs for *Windows* and *Mac*, so only Ubuntu users needs to follow [this instructions](https://docs.docker.com/compose/install/).
 
-
 ## Build and Start
+
+This command should build the maven project and deploy it to the container.
 
 ``` bash
 docker-compose up --build
@@ -19,11 +20,15 @@ docker-compose up --build
 
 ## Start Only
 
+After the app has been built, it can be just started.
+
 ``` bash
 docker-compose up
 ```
 
 ## Stop
+
+Always stop the last docker compose start command before issuing another.
 
 > make sure to stop every `docker-compose up` command
 

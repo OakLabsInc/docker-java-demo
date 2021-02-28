@@ -2,6 +2,15 @@
 
 This project is meant to demonstrate the use of docker-compose and a Dockerfile to build a java application and then start up the container.
 
+## Prerequisites
+
+In order to run this application you need to install two tools: **Docker** & **Docker Compose**.
+
+Instructions how to install **Docker** on [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Windows](https://docs.docker.com/docker-for-windows/install/), [Mac](https://docs.docker.com/docker-for-mac/install/).
+
+**Docker Compose** is already included in installation packs for *Windows* and *Mac*, so only Ubuntu users needs to follow [this instructions](https://docs.docker.com/compose/install/).
+
+
 ## Build and Start
 
 ``` bash
